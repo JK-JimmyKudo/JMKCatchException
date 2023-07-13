@@ -28,10 +28,9 @@
     _filePath = getFilePath();
     NSSetUncaughtExceptionHandler(&UncaughtExceptionHandler);
 }
-//'unarchiveObjectWithFile:' is deprecated: first deprecated in iOS 12.0 - Use +unarchivedObjectOfClass:fromData:error: instead
+
 - (NSArray*)readExceptionInfoFromLocal{
-    
-    
+    //获取存储数据
     return [NSKeyedUnarchiver unarchiveObjectWithFile:_filePath];
 }
 
@@ -48,6 +47,7 @@
 - (void)removeExceptionItemIndex:(NSUInteger)index{
     NSMutableArray *dataArry = [self readExceptionInfoFromLocal].mutableCopy;
     [dataArry removeObjectAtIndex:index];
+    //添加数据
     [NSKeyedArchiver archiveRootObject:dataArry toFile:_filePath];
 }
 
@@ -95,19 +95,16 @@ void writeInfoToLocal(NSString *name,NSString *reason,NSString *time){
     if (![fileM fileExistsAtPath:filePath]) {
         [fileM createFileAtPath:filePath contents:nil attributes:nil];
     }
-    
+    //获取存储数据
     NSMutableArray * chatLogArray =  [NSKeyedUnarchiver unarchiveObjectWithFile:filePath];
-    
-    
-    
     NSLog(@"chatLogArray -- %@",chatLogArray);
     
     if ((chatLogArray.count == 0)) {
         chatLogArray = [NSMutableArray arrayWithCapacity:1];
     }
     [chatLogArray insertObject:exceptionBox atIndex:0];
-    [NSKeyedArchiver archiveRootObject:chatLogArray toFile:filePath];
     
+    [NSKeyedArchiver archiveRootObject:chatLogArray toFile:filePath];
 }
 
 

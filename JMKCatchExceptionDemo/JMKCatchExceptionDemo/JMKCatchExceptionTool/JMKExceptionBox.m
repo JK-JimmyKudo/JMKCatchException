@@ -36,4 +36,8 @@
     return YES;
 }
 
+- (nonnull id)copyWithZone:(nullable NSZone *)zone {
+    return  [self copyWithZone:zone];
+}
+
 @end
