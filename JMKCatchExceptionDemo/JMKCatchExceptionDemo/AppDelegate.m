@@ -7,6 +7,9 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "JMKCatchExceptionTool.h"
+
+
 @interface AppDelegate ()
 
 @end
@@ -15,18 +18,33 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        ViewController *vc = [[ViewController alloc]init];
-        UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
-        self.window.rootViewController = nav;
-        [self.window makeKeyAndVisible];
+//        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//        ViewController *vc = [[ViewController alloc]init];
+//        UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+//        self.window.rootViewController = nav;
+//        self.window.backgroundColor = [UIColor whiteColor];
+//        [self.window makeKeyAndVisible];
         
     
-    // Override point for customization after application launch.
+    
+    
+    
+    [self createRootViewController];
+    
+    //register
+    [[JMKCatchExceptionTool shareInstance]installUncaughtExceptionHandler];
+
     return YES;
 }
 
-
+- (void)createRootViewController {
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = window;
+    self.tabBarController = [BOTBaseTabBarController configTabBarControllers];
+    self.tabBarController.delegate = self;
+    self.window.rootViewController = self.tabBarController;
+    [self.window makeKeyAndVisible];
+}
 #pragma mark - UISceneSession lifecycle
 
 //

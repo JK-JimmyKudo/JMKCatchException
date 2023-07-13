@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2354FBC2A5FCD2E0090BFBE /* BOTBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2354FBB2A5FCD2E0090BFBE /* BOTBaseTabBarController.m */; };
 		C266B5952A5FAD8500A63A74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C266B5942A5FAD8500A63A74 /* AppDelegate.m */; };
 		C266B59B2A5FAD8500A63A74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C266B59A2A5FAD8500A63A74 /* ViewController.m */; };
 		C266B59E2A5FAD8500A63A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C266B59C2A5FAD8500A63A74 /* Main.storyboard */; };
 		C266B5A02A5FAD8700A63A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C266B59F2A5FAD8700A63A74 /* Assets.xcassets */; };
 		C266B5A32A5FAD8700A63A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C266B5A12A5FAD8700A63A74 /* LaunchScreen.storyboard */; };
 		C266B5A62A5FAD8700A63A74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C266B5A52A5FAD8700A63A74 /* main.m */; };
+		C266B5B12A5FB02400A63A74 /* JMKExceptionBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C266B5AD2A5FB02400A63A74 /* JMKExceptionBox.m */; };
+		C266B5B22A5FB02400A63A74 /* JMKCatchExceptionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C266B5AE2A5FB02400A63A74 /* JMKCatchExceptionTool.m */; };
+		C266B5B52A5FB04400A63A74 /* BOTTranslateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C266B5B32A5FB04400A63A74 /* BOTTranslateViewController.m */; };
+		C266B5B82A5FB04B00A63A74 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C266B5B62A5FB04B00A63A74 /* FirstViewController.m */; };
+		DBA00C219E1B15FEA0D6D21E /* Pods_JMKCatchExceptionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72E1E34025F98E451C74870 /* Pods_JMKCatchExceptionDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16325D517B87E91E8023C123 /* Pods-JMKCatchExceptionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMKCatchExceptionDemo.release.xcconfig"; path = "Target Support Files/Pods-JMKCatchExceptionDemo/Pods-JMKCatchExceptionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C2354FBA2A5FCD2E0090BFBE /* BOTBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOTBaseTabBarController.h; sourceTree = "<group>"; };
+		C2354FBB2A5FCD2E0090BFBE /* BOTBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOTBaseTabBarController.m; sourceTree = "<group>"; };
 		C266B5902A5FAD8500A63A74 /* JMKCatchExceptionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMKCatchExceptionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C266B5932A5FAD8500A63A74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C266B5942A5FAD8500A63A74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +35,16 @@
 		C266B5A22A5FAD8700A63A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C266B5A42A5FAD8700A63A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C266B5A52A5FAD8700A63A74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C266B5AD2A5FB02400A63A74 /* JMKExceptionBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKExceptionBox.m; sourceTree = "<group>"; };
+		C266B5AE2A5FB02400A63A74 /* JMKCatchExceptionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKCatchExceptionTool.m; sourceTree = "<group>"; };
+		C266B5AF2A5FB02400A63A74 /* JMKCatchExceptionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMKCatchExceptionTool.h; sourceTree = "<group>"; };
+		C266B5B02A5FB02400A63A74 /* JMKExceptionBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMKExceptionBox.h; sourceTree = "<group>"; };
+		C266B5B32A5FB04400A63A74 /* BOTTranslateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOTTranslateViewController.m; sourceTree = "<group>"; };
+		C266B5B42A5FB04400A63A74 /* BOTTranslateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOTTranslateViewController.h; sourceTree = "<group>"; };
+		C266B5B62A5FB04B00A63A74 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C266B5B72A5FB04B00A63A74 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C72E1E34025F98E451C74870 /* Pods_JMKCatchExceptionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMKCatchExceptionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57A5EDB658F445A31D40D0D /* Pods-JMKCatchExceptionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMKCatchExceptionDemo.debug.xcconfig"; path = "Target Support Files/Pods-JMKCatchExceptionDemo/Pods-JMKCatchExceptionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA00C219E1B15FEA0D6D21E /* Pods_JMKCatchExceptionDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34CB8C5542FF46967BB3A9CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E57A5EDB658F445A31D40D0D /* Pods-JMKCatchExceptionDemo.debug.xcconfig */,
+				16325D517B87E91E8023C123 /* Pods-JMKCatchExceptionDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C266B5872A5FAD8500A63A74 = {
 			isa = PBXGroup;
 			children = (
 				C266B5922A5FAD8500A63A74 /* JMKCatchExceptionDemo */,
 				C266B5912A5FAD8500A63A74 /* Products */,
+				34CB8C5542FF46967BB3A9CE /* Pods */,
+				C3B9B6105ED53672E72D5ABB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +89,17 @@
 		C266B5922A5FAD8500A63A74 /* JMKCatchExceptionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C266B5AC2A5FB02400A63A74 /* JMKCatchExceptionTool */,
 				C266B5932A5FAD8500A63A74 /* AppDelegate.h */,
 				C266B5942A5FAD8500A63A74 /* AppDelegate.m */,
+				C2354FBA2A5FCD2E0090BFBE /* BOTBaseTabBarController.h */,
+				C2354FBB2A5FCD2E0090BFBE /* BOTBaseTabBarController.m */,
 				C266B5992A5FAD8500A63A74 /* ViewController.h */,
 				C266B59A2A5FAD8500A63A74 /* ViewController.m */,
+				C266B5B72A5FB04B00A63A74 /* FirstViewController.h */,
+				C266B5B62A5FB04B00A63A74 /* FirstViewController.m */,
+				C266B5B42A5FB04400A63A74 /* BOTTranslateViewController.h */,
+				C266B5B32A5FB04400A63A74 /* BOTTranslateViewController.m */,
 				C266B59C2A5FAD8500A63A74 /* Main.storyboard */,
 				C266B59F2A5FAD8700A63A74 /* Assets.xcassets */,
 				C266B5A12A5FAD8700A63A74 /* LaunchScreen.storyboard */,
@@ -71,6 +109,25 @@
 			path = JMKCatchExceptionDemo;
 			sourceTree = "<group>";
 		};
+		C266B5AC2A5FB02400A63A74 /* JMKCatchExceptionTool */ = {
+			isa = PBXGroup;
+			children = (
+				C266B5AE2A5FB02400A63A74 /* JMKCatchExceptionTool.m */,
+				C266B5AF2A5FB02400A63A74 /* JMKCatchExceptionTool.h */,
+				C266B5AD2A5FB02400A63A74 /* JMKExceptionBox.m */,
+				C266B5B02A5FB02400A63A74 /* JMKExceptionBox.h */,
+			);
+			path = JMKCatchExceptionTool;
+			sourceTree = "<group>";
+		};
+		C3B9B6105ED53672E72D5ABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C72E1E34025F98E451C74870 /* Pods_JMKCatchExceptionDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C266B5A92A5FAD8700A63A74 /* Build configuration list for PBXNativeTarget "JMKCatchExceptionDemo" */;
 			buildPhases = (
+				D70ED166A55D10059F388258 /* [CP] Check Pods Manifest.lock */,
 				C266B58C2A5FAD8500A63A74 /* Sources */,
 				C266B58D2A5FAD8500A63A74 /* Frameworks */,
 				C266B58E2A5FAD8500A63A74 /* Resources */,
+				3EB037FABFAF4B0683ADF84A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,13 +195,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EB037FABFAF4B0683ADF84A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JMKCatchExceptionDemo/Pods-JMKCatchExceptionDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JMKCatchExceptionDemo/Pods-JMKCatchExceptionDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JMKCatchExceptionDemo/Pods-JMKCatchExceptionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D70ED166A55D10059F388258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JMKCatchExceptionDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C266B58C2A5FAD8500A63A74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C266B5B52A5FB04400A63A74 /* BOTTranslateViewController.m in Sources */,
+				C266B5B22A5FB02400A63A74 /* JMKCatchExceptionTool.m in Sources */,
+				C266B5B82A5FB04B00A63A74 /* FirstViewController.m in Sources */,
 				C266B59B2A5FAD8500A63A74 /* ViewController.m in Sources */,
+				C2354FBC2A5FCD2E0090BFBE /* BOTBaseTabBarController.m in Sources */,
 				C266B5952A5FAD8500A63A74 /* AppDelegate.m in Sources */,
+				C266B5B12A5FB02400A63A74 /* JMKExceptionBox.m in Sources */,
 				C266B5A62A5FAD8700A63A74 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +387,7 @@
 		};
 		C266B5AA2A5FAD8700A63A74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57A5EDB658F445A31D40D0D /* Pods-JMKCatchExceptionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -308,6 +415,7 @@
 		};
 		C266B5AB2A5FAD8700A63A74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16325D517B87E91E8023C123 /* Pods-JMKCatchExceptionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
